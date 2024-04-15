@@ -13,7 +13,7 @@ const Input = ({
     error,
 }) => {
     return (
-        <div style={divStyle} className="my-2">
+        <div style={divStyle} className="my-2 text-center relative">
             {label && <label className="mx-1 text-gray-700">{label}</label>}
             <input
                 type={type}

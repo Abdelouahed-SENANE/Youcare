@@ -59,18 +59,19 @@ const Home = () => {
         <>
             <Hero classes>
                 <Input
-                    classInput="border-2 border-black h-10 w-full rounded shadow-lg p-4"
+                    classInput=" h-12 border-gray-200 min-w-[600px] rounded shadow-lg outline-none focus:ring-4 transition-all duration-200 focus:ring-primary/50 p-4"
                     divStyle={{
                         width: "80%",
                     }}
                     handleChange={handleQueryChange}
+                    placeholder={'Search...'}
                 />
             </Hero>
 
             <Seperator />
 
-            <ListingsWrapper classes="bg-secondary">
-                <Sticker classes="text-center">Listings</Sticker>
+            <ListingsWrapper classes="bg-white">
+                <h1 className="text-center text-4xl mx-auto border-4 rounded-md border-primary w-fit px-6 py-3">Listings</h1>
 
                 <div className="py-10">
                     {loading ? (

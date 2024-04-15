@@ -17,14 +17,14 @@ const Pagination = ({ pages, page, onPageChange }) => {
     return (
         <div className='flex justify-center items-center pt-10'>
             {[...Array(pageCount)].map((x, i) => (
-                <Button
+                <button
                     dataId={i+1}
                     key={i+1}
-                    buttonClass={`p-4 border-2 border-white m-2 ${links[i+1].label.includes(page) ? activeStyle : 'bg-transparent text-white border-dashed'}`}
+                    className={`px-4 py-2  border-2  border-primary mx-0.5 rounded-lg ${links[i+1].label.includes(page) ? activeStyle : 'bg-white text-primary'}`}
                     onClick={handleActiveLinkChange}
                 >
                     {links[i+1].label}
-                </Button>
+                </button>
             ))}
         </div>
     )

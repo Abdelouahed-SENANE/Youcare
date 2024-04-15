@@ -1,11 +1,7 @@
-import React from "react"
+import React from "react";
 
 const Seperator = () => {
-    return (
-        <div className='m-4 py-16 px-64 mx-auto'>
-            <hr className='border-4 border-dashed'/>
-        </div>
-    )
-}
+    return <div className="m-4 py-6 mx-auto"></div>;
+};
 
-export default Seperator
+export default Seperator;

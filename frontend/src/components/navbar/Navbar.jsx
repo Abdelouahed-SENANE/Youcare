@@ -37,7 +37,7 @@ const Navbar = () => {
                             <li>
                                 <Link
                                     to="/home"
-                                    className="text-secondary/90 hover:text-secondary"
+                                    className="text-primary/90 hover:text-primary"
                                 >
                                     Home
                                 </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
                             <li>
                                 <Link
                                     to="/home"
-                                    className="text-secondary/90 hover:text-secondary"
+                                    className="text-primary/90 hover:text-primary"
                                 >
                                     About
                                 </Link>
